@@ -1,0 +1,1 @@
+ISOLABEL=$(lsblk -a -o label -p /dev/loop0 | grep -v LABEL)
